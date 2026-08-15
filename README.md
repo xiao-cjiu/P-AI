@@ -45,7 +45,7 @@ MODEL_NAME=deepseek-chat
 ### 方式一：一键脚本（推荐，macOS）
 
 ```bash
-cd /Users/xiaocjiu/Code/AI-python/P-AI
+cd /Your/Path/To/P-AI
 chmod +x start.sh
 ./start.sh
 ```
