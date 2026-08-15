@@ -26,6 +26,20 @@
 
 ---
 
+#### 1️⃣ 配置大模型 API Key
+
+编辑 `backend/.env`，填入你的 API Key：
+
+```
+API_KEY=sk-xxxxxxxxxxxxxxxx
+BASE_URL=https://api.deepseek.com/v1
+MODEL_NAME=deepseek-chat
+```
+
+> 💡 推荐使用 DeepSeek（新用户免费送额度）：https://platform.deepseek.com/
+> 任何兼容 OpenAI 格式的 API 都可以，修改 `BASE_URL` 和 `MODEL_NAME` 即可。
+
+
 ## 🚀 快速启动
 
 ### 方式一：一键脚本（推荐，macOS）
@@ -41,19 +55,6 @@ chmod +x start.sh
 ---
 
 ### 方式二：手动分步启动
-
-#### 1️⃣ 配置大模型 API Key
-
-编辑 `backend/.env`，填入你的 API Key：
-
-```env
-API_KEY=sk-xxxxxxxxxxxxxxxx
-BASE_URL=https://api.deepseek.com/v1
-MODEL_NAME=deepseek-chat
-```
-
-> 💡 推荐使用 DeepSeek（新用户免费送额度）：https://platform.deepseek.com/
-> 任何兼容 OpenAI 格式的 API 都可以，修改 `BASE_URL` 和 `MODEL_NAME` 即可。
 
 #### 2️⃣ 启动后端 FastAPI（端口 8000）
 
