@@ -26,7 +26,7 @@
 
 ---
 
-#### 1️⃣ 配置大模型 API Key
+#### 配置大模型 API Key
 
 编辑 `backend/.env`，填入你的 API Key：
 
@@ -56,7 +56,7 @@ chmod +x start.sh
 
 ### 方式二：手动分步启动
 
-#### 2️⃣ 启动后端 FastAPI（端口 8000）
+#### 启动后端 FastAPI（端口 8000）
 
 ```bash
 cd backend
@@ -66,7 +66,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload --port 8000
 ```
 
-#### 3️⃣ 启动前端 React（端口 5173）
+#### 启动前端 React（端口 5173）
 
 新开一个终端：
 
